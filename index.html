@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="dashboard-image">
+        <div class="image-background"></div>
+      </div>
+      <div class="dashboard-text">
+        <h1>FAQ</h1>
+        <h3>
+          How many team members can I invite?
+          <button id="btn-1" value="q1">
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+        </h3>
+        <h4 id="q1" style="display: none">
+          You can invite up to 2 additional users on the Free plan. There is no
+          limit on team members for the Premium plan.
+        </h4>
+        <h3>
+          What is the maximum file upload size?<button id="btn-2" value="q2">
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+        </h3>
+        <h4 id="q2" style="display: none">
+          No more than 2GB. All files in your account must fit your allotted
+          storage space.
+        </h4>
+        <h3>
+          How do I reset my password?
+          <button id="btn-3" value="q3">
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+        </h3>
+        <h4 id="q3" style="display: none">
+          Click “Forgot password” from the login page or “Change password” from
+          your profile page. A reset link will be emailed to you.
+        </h4>
+        <h3>
+          Can I cancel my subscription?<button id="btn-4" value="q4">
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+        </h3>
+        <h4 id="q4" style="display: none">
+          Yes! Send us a message and we’ll process your request no questions
+          asked.
+        </h4>
+        <h3>
+          Do you provide additional support?<button id="btn-5" value="q5">
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+        </h3>
+        <h4 id="q5" style="display: none">
+          Chat and email support is available 24/7. Phone lines are open during
+          normal business hours.
+        </h4>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Bianca Procopio</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
