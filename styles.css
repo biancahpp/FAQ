@@ -13,7 +13,7 @@
     height: 600px;
     background-color: white;
     border-radius: 30px;
-    flex-direction: row;
+    box-shadow: 2px 2px 21px 0px hsl(237, 12%, 33%);
 }
 
 .dashboard-image {
@@ -24,7 +24,6 @@
     background-image: url("./images/bg-pattern-desktop.svg");
     background-repeat: no-repeat ;
     background-position: -570px -200px;
-    opacity: 1;
 }
 
 .image-background {
@@ -69,6 +68,8 @@
     font-size: 12px;
     font-weight: 300;
     width: 450px;
+    color: hsl(240, 6%, 50%);
+    line-height: 25px;
 }
 
 .dashboard-text button {
@@ -80,3 +81,18 @@
 button:hover {
     cursor: pointer;
 }
+
+#box-img-2 img{
+    position: absolute;
+    top: 445px;
+    right: 1465px;
+
+}
+
+.attribution {
+    clear: both;
+    position: relative;
+    bottom: -100px;
+    color: #fff ;
+}
+
