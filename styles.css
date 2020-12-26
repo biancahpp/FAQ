@@ -32,6 +32,7 @@
     background-image: url("./images/illustration-woman-online-desktop.svg");
     background-repeat: no-repeat ;
     background-position: -85px 150px;
+    position: relative;
 }
 
 
@@ -84,8 +85,8 @@ button:hover {
 
 #box-img-2 img{
     position: absolute;
-    top: 445px;
-    right: 1465px;
+    top: 47%;
+    left: -18%;
 
 }
 
